@@ -13,7 +13,6 @@
 		8FF3A5131AD07DD800547D53 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FF3A5081AD07DD800547D53 /* LaunchScreen.xib */; };
 		8FF3A5141AD07DD800547D53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF3A5091AD07DD800547D53 /* Main.storyboard */; };
 		8FF3A5151AD07DD800547D53 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF3A50D1AD07DD800547D53 /* View.swift */; };
-		8FF3A5201AD07F2100547D53 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF3A4E91AD07DA200547D53 /* Tests.swift */; };
 		8FF3A5541AD0837500547D53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF3A5531AD0837500547D53 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		8FF3A4511AD068DD00547D53 /* EPICBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPICBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF3A4661AD068DD00547D53 /* EPICBaseProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPICBaseProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF3A4E81AD07DA200547D53 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8FF3A4E91AD07DA200547D53 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8FF3A4ED1AD07DD800547D53 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FF3A5011AD07DD800547D53 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8FF3A5041AD07DD800547D53 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 		8FF3A4E71AD07DA200547D53 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				8FF3A4E91AD07DA200547D53 /* Tests.swift */,
 				8FF3A4E81AD07DA200547D53 /* Info.plist */,
 			);
 			path = Tests;
@@ -437,7 +434,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FF3A5201AD07F2100547D53 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
