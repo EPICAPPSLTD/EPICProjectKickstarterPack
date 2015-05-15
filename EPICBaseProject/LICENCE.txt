@@ -1,0 +1,14 @@
+Sample code project: EPICBaseProject
+Version: 1.0
+
+IMPORTANT:
+
+This software (the "EPIC SOFTWARE") is supplied to you by EPIC APPS LTD ("EPIC") in consideration of your agreement to the following terms, and your use, installation, modification or redistribution of this EPIC SOFTWARE constitutes acceptance of these terms. If you do not agree with these terms, please do not use, install, modify or redistribute this EPIC SOFTWARE.
+
+In consideration of your agreement to abide by the following terms, and subject to these terms, EPIC grants you a personal, non-exclusive license, under EPIC's copyrights in this original EPIC SOFTWARE, to use, reproduce, modify and redistribute the EPIC SOFTWARE, with or without modifications, in source and/or binary forms; provided that you must retain this notice and the following text and disclaimers, as well as all attributions of the source code, in all such redistributions of the EPIC SOFTWARE. Neither the name, trademarks, service marks or logos of EPIC APPS LTD may be used to endorse or promote products derived from the EPIC SOFTWARE without specific prior written permission from EPIC. Except as expressly stated in this notice, no other rights or licenses, express or implied, are granted by EPIC herein, including but not limited to any patent rights that may be infringed by your derivative works or by other works in which the EPIC SOFTWARE may be incorporated.
+
+The EPIC SOFTWARE is provided by EPIC on an "AS IS" basis. EPIC makes no warranties, express or implied, including without limitation the implied warranties of non-infringment, merchantability and fitness for a particular purpose, regarding the EPIC SOFTWARE or its use and operation alone or in combination with your products.
+
+In no event shall EPIC be liable for any special, indirect, incidental or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) arising in any way out of the use, reproduction, modification and/or distribution of the EPIC SOFTWARE, however caused and whether under theory of contract, tort (including negligence), strict liability or otherwise, even if EPIC has been advised of the possibility of such damage.
+
+Copyright (C) 2015 EPIC APPS LTD. All Rights Reserved.

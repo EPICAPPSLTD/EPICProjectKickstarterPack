@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EPICBaseProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4wR-AQ-5kS"/>
+                        <viewControllerLayoutGuide type="bottom" id="c3h-fh-0HD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fWS-81-BZK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="a6D-mp-eh6">
+                                <rect key="frame" x="188" y="160" width="223" height="280"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="www.epic-apps.uk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a6C-l4-CWT">
+                                <rect key="frame" x="266" y="574" width="67" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="464" id="tST-eQ-ofn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="8"/>
+                                <color key="textColor" red="0.47843140360000003" green="0.47843134399999998" blue="0.47843134399999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="tST-eQ-ofn"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright (c) 2015 EPIC. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h40-D1-tle">
+                                <rect key="frame" x="221" y="556" width="157" height="10"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="464" id="791-9n-kHc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="8"/>
+                                <color key="textColor" red="0.47843140360000003" green="0.47843134399999998" blue="0.47843134399999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="791-9n-kHc"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="a6C-l4-CWT" firstAttribute="top" secondItem="h40-D1-tle" secondAttribute="bottom" constant="8" id="15l-wc-8Ec"/>
+                            <constraint firstItem="a6C-l4-CWT" firstAttribute="bottom" secondItem="fWS-81-BZK" secondAttribute="bottomMargin" id="2IV-7z-dX7"/>
+                            <constraint firstItem="a6C-l4-CWT" firstAttribute="top" secondItem="h40-D1-tle" secondAttribute="bottom" constant="8" id="C12-IN-d2s"/>
+                            <constraint firstAttribute="centerX" secondItem="a6D-mp-eh6" secondAttribute="centerX" id="DF3-1x-Wae"/>
+                            <constraint firstItem="h40-D1-tle" firstAttribute="width" secondItem="a6C-l4-CWT" secondAttribute="width" id="GZa-yB-eeN"/>
+                            <constraint firstAttribute="centerY" secondItem="a6D-mp-eh6" secondAttribute="centerY" id="PSQ-AI-C4x"/>
+                            <constraint firstItem="a6C-l4-CWT" firstAttribute="top" secondItem="a6D-mp-eh6" secondAttribute="bottom" constant="71" id="T5m-3z-vf4"/>
+                            <constraint firstAttribute="centerX" secondItem="h40-D1-tle" secondAttribute="centerX" constant="0.5" id="X6F-Lr-fRK"/>
+                            <constraint firstAttribute="bottom" secondItem="a6C-l4-CWT" secondAttribute="bottom" constant="16" id="afX-eu-Xwd"/>
+                            <constraint firstItem="h40-D1-tle" firstAttribute="centerY" secondItem="a6C-l4-CWT" secondAttribute="centerY" constant="-18" id="ajU-18-clH"/>
+                            <constraint firstAttribute="centerX" secondItem="a6C-l4-CWT" secondAttribute="centerX" constant="0.5" id="bT6-8h-fDN"/>
+                            <constraint firstAttribute="centerX" secondItem="a6C-l4-CWT" secondAttribute="centerX" id="ecT-gf-3gr"/>
+                            <constraint firstAttribute="centerY" secondItem="a6D-mp-eh6" secondAttribute="centerY" id="g8M-pF-gzE"/>
+                            <constraint firstItem="a6C-l4-CWT" firstAttribute="leading" secondItem="fWS-81-BZK" secondAttribute="leadingMargin" id="gmi-gB-FeK"/>
+                            <constraint firstAttribute="trailing" secondItem="a6C-l4-CWT" secondAttribute="trailing" constant="8" id="gon-KA-MOe"/>
+                            <constraint firstAttribute="centerX" secondItem="h40-D1-tle" secondAttribute="centerX" constant="0.5" id="hVE-1m-ujV"/>
+                            <constraint firstAttribute="bottom" secondItem="a6C-l4-CWT" secondAttribute="bottom" constant="16" id="mnN-W0-hqK"/>
+                            <constraint firstItem="a6C-l4-CWT" firstAttribute="leading" secondItem="fWS-81-BZK" secondAttribute="leading" constant="8" id="rXR-AU-00X"/>
+                            <constraint firstAttribute="centerX" secondItem="a6D-mp-eh6" secondAttribute="centerX" constant="0.5" id="uqx-CG-HWf"/>
+                            <constraint firstItem="a6C-l4-CWT" firstAttribute="trailing" secondItem="fWS-81-BZK" secondAttribute="trailingMargin" id="yfy-YX-OPJ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="g8M-pF-gzE"/>
+                                <exclude reference="DF3-1x-Wae"/>
+                                <exclude reference="ajU-18-clH"/>
+                                <exclude reference="GZa-yB-eeN"/>
+                                <exclude reference="X6F-Lr-fRK"/>
+                                <exclude reference="gon-KA-MOe"/>
+                                <exclude reference="gmi-gB-FeK"/>
+                                <exclude reference="yfy-YX-OPJ"/>
+                                <exclude reference="2IV-7z-dX7"/>
+                                <exclude reference="rXR-AU-00X"/>
+                                <exclude reference="15l-wc-8Ec"/>
+                                <exclude reference="ecT-gf-3gr"/>
+                                <exclude reference="afX-eu-Xwd"/>
+                                <exclude reference="T5m-3z-vf4"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="336" y="360"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="223" height="280"/>
+    </resources>
+</document>
