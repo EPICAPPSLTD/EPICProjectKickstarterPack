@@ -1,6 +1,6 @@
 //
 //  View.swift
-//  EPICBaseProject
+//  TES 2
 //
 //  Created by Danny Bravo on 18/04/2015.
 //  Copyright (c) 2015 EPIC. All rights reserved.

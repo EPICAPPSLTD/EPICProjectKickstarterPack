@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8FF3A4501AD068DD00547D53"
-               BuildableName = "EPICBaseProject.app"
-               BlueprintName = "EPICBaseProject"
-               ReferencedContainer = "container:EPICBaseProject.xcodeproj">
+               BuildableName = "TES 2.app"
+               BlueprintName = "TES 2"
+               ReferencedContainer = "container:TES 2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8FF3A4651AD068DD00547D53"
-               BuildableName = "EPICBaseProjectTests.xctest"
-               BlueprintName = "EPICBaseProjectTests"
-               ReferencedContainer = "container:EPICBaseProject.xcodeproj">
+               BuildableName = "TES 2Tests.xctest"
+               BlueprintName = "TES 2Tests"
+               ReferencedContainer = "container:TES 2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8FF3A4651AD068DD00547D53"
-               BuildableName = "EPICBaseProjectTests.xctest"
-               BlueprintName = "EPICBaseProjectTests"
-               ReferencedContainer = "container:EPICBaseProject.xcodeproj">
+               BuildableName = "TES 2Tests.xctest"
+               BlueprintName = "TES 2Tests"
+               ReferencedContainer = "container:TES 2.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8FF3A4501AD068DD00547D53"
-            BuildableName = "EPICBaseProject.app"
-            BlueprintName = "EPICBaseProject"
-            ReferencedContainer = "container:EPICBaseProject.xcodeproj">
+            BuildableName = "TES 2.app"
+            BlueprintName = "TES 2"
+            ReferencedContainer = "container:TES 2.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8FF3A4501AD068DD00547D53"
-            BuildableName = "EPICBaseProject.app"
-            BlueprintName = "EPICBaseProject"
-            ReferencedContainer = "container:EPICBaseProject.xcodeproj">
+            BuildableName = "TES 2.app"
+            BlueprintName = "TES 2"
+            ReferencedContainer = "container:TES 2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8FF3A4501AD068DD00547D53"
-            BuildableName = "EPICBaseProject.app"
-            BlueprintName = "EPICBaseProject"
-            ReferencedContainer = "container:EPICBaseProject.xcodeproj">
+            BuildableName = "TES 2.app"
+            BlueprintName = "TES 2"
+            ReferencedContainer = "container:TES 2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
