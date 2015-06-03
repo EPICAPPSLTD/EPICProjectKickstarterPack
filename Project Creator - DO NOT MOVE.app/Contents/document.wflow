@@ -780,6 +780,7 @@ end run</string>
 					<key>COMMAND_STRING</key>
 					<string>PROJECTS_PATH=$1;
 NEW_PROJECT_NAME=$2;
+NEW_PROJECT_NAME=${NEW_PROJECT_NAME//[[:blank:]]/}
 OLD_PROJECT_NAME="EPICBaseProject";
 
 export LANG=C
@@ -829,8 +830,6 @@ mv "$OLD_PROJECT_NAME.xcodeproj" "$NEW_PROJECT_NAME.xcodeproj";</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>2212FFB9-6E68-4C33-8DA5-F9567D23533A</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>051F3463-BBBD-4D14-9DE4-518BEF4841FD</string>
 				<key>UnlocalizedApplications</key>
@@ -976,8 +975,6 @@ mv "$OLD_PROJECT_NAME.xcodeproj" "$NEW_PROJECT_NAME.xcodeproj";</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>609DB277-0AF2-4C34-8B2E-34E8531D97A1</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>DE6EF7F6-F338-4BE5-92B3-C89EDB055A76</string>
 				<key>UnlocalizedApplications</key>
@@ -986,61 +983,59 @@ mv "$OLD_PROJECT_NAME.xcodeproj" "$NEW_PROJECT_NAME.xcodeproj";</string>
 				</array>
 				<key>arguments</key>
 				<dict/>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 			</dict>
 		</dict>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>00ABD554-D4F4-4EAA-B97B-672CC2AE7E74</key>
+		<key>35C93A0A-4357-4545-BF7E-E81B2A6CCC92</key>
+		<dict>
+			<key>from</key>
+			<string>48C1445D-9AD0-4E31-8A0E-E84D7DADC1E1 - 48C1445D-9AD0-4E31-8A0E-E84D7DADC1E1</string>
+			<key>to</key>
+			<string>6B56B832-722F-44DB-9BB6-BBE3205BD946 - 6B56B832-722F-44DB-9BB6-BBE3205BD946</string>
+		</dict>
+		<key>4CE6C236-FC2C-49FB-933F-E39AF4D8F7AF</key>
+		<dict>
+			<key>from</key>
+			<string>5437EBC5-DBD8-4A6B-ABE3-D87BF8744340 - 5437EBC5-DBD8-4A6B-ABE3-D87BF8744340</string>
+			<key>to</key>
+			<string>E27EB9CA-F040-4307-BB76-615A01353CA4 - E27EB9CA-F040-4307-BB76-615A01353CA4</string>
+		</dict>
+		<key>61EE619C-84A0-48ED-BBF0-5847A35E304B</key>
 		<dict>
 			<key>from</key>
 			<string>75029BB2-6E15-44DF-B0E2-55C0FD332BAB - 75029BB2-6E15-44DF-B0E2-55C0FD332BAB</string>
 			<key>to</key>
 			<string>5437EBC5-DBD8-4A6B-ABE3-D87BF8744340 - 5437EBC5-DBD8-4A6B-ABE3-D87BF8744340</string>
 		</dict>
-		<key>139738F4-3744-4BAC-AB26-F64B98E896F9</key>
-		<dict>
-			<key>from</key>
-			<string>E27EB9CA-F040-4307-BB76-615A01353CA4 - E27EB9CA-F040-4307-BB76-615A01353CA4</string>
-			<key>to</key>
-			<string>C40C36B4-D034-4A78-BDE8-56F09C79C075 - C40C36B4-D034-4A78-BDE8-56F09C79C075</string>
-		</dict>
-		<key>13F78B78-1C37-4CB7-B88E-5DF2B64DD6AA</key>
-		<dict>
-			<key>from</key>
-			<string>C40C36B4-D034-4A78-BDE8-56F09C79C075 - C40C36B4-D034-4A78-BDE8-56F09C79C075</string>
-			<key>to</key>
-			<string>48C1445D-9AD0-4E31-8A0E-E84D7DADC1E1 - 48C1445D-9AD0-4E31-8A0E-E84D7DADC1E1</string>
-		</dict>
-		<key>4CE669E2-E881-4BB2-BEDC-088492B00423</key>
-		<dict>
-			<key>from</key>
-			<string>48C1445D-9AD0-4E31-8A0E-E84D7DADC1E1 - 48C1445D-9AD0-4E31-8A0E-E84D7DADC1E1</string>
-			<key>to</key>
-			<string>6B56B832-722F-44DB-9BB6-BBE3205BD946 - 6B56B832-722F-44DB-9BB6-BBE3205BD946</string>
-		</dict>
-		<key>5D461489-7E29-4C3B-A48E-105A910FBB32</key>
+		<key>6FCFA27D-E2B8-4AED-8EBA-C90E045A4EF8</key>
 		<dict>
 			<key>from</key>
 			<string>051F3463-BBBD-4D14-9DE4-518BEF4841FD - 051F3463-BBBD-4D14-9DE4-518BEF4841FD</string>
 			<key>to</key>
 			<string>DE6EF7F6-F338-4BE5-92B3-C89EDB055A76 - DE6EF7F6-F338-4BE5-92B3-C89EDB055A76</string>
 		</dict>
-		<key>C100BC50-057B-4A5A-B281-64A9C601A874</key>
+		<key>D7F1596B-F4A2-42A0-8859-B20DE9C773EC</key>
+		<dict>
+			<key>from</key>
+			<string>C40C36B4-D034-4A78-BDE8-56F09C79C075 - C40C36B4-D034-4A78-BDE8-56F09C79C075</string>
+			<key>to</key>
+			<string>48C1445D-9AD0-4E31-8A0E-E84D7DADC1E1 - 48C1445D-9AD0-4E31-8A0E-E84D7DADC1E1</string>
+		</dict>
+		<key>E4FAFB33-0340-4CDE-ADC8-2338D75FFFFE</key>
 		<dict>
 			<key>from</key>
 			<string>6B56B832-722F-44DB-9BB6-BBE3205BD946 - 6B56B832-722F-44DB-9BB6-BBE3205BD946</string>
 			<key>to</key>
 			<string>051F3463-BBBD-4D14-9DE4-518BEF4841FD - 051F3463-BBBD-4D14-9DE4-518BEF4841FD</string>
 		</dict>
-		<key>E29146B7-0A6F-4033-978E-70852497D632</key>
+		<key>F7458EB6-19B2-4EBA-8348-041B15F1ADB3</key>
 		<dict>
 			<key>from</key>
-			<string>5437EBC5-DBD8-4A6B-ABE3-D87BF8744340 - 5437EBC5-DBD8-4A6B-ABE3-D87BF8744340</string>
-			<key>to</key>
 			<string>E27EB9CA-F040-4307-BB76-615A01353CA4 - E27EB9CA-F040-4307-BB76-615A01353CA4</string>
+			<key>to</key>
+			<string>C40C36B4-D034-4A78-BDE8-56F09C79C075 - C40C36B4-D034-4A78-BDE8-56F09C79C075</string>
 		</dict>
 	</dict>
 	<key>variables</key>

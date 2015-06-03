@@ -28,8 +28,8 @@
 
 /* Begin PBXFileReference section */
 		8F8C3E081AD92CBA00CB431E /* LICENCE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE.txt; sourceTree = SOURCE_ROOT; };
-		8FF3A4511AD068DD00547D53 /* TES 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPICBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FF3A4661AD068DD00547D53 /* TES 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPICBaseProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF3A4511AD068DD00547D53 /* EPICBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPICBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF3A4661AD068DD00547D53 /* EPICBaseProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPICBaseProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF3A4E81AD07DA200547D53 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FF3A4ED1AD07DD800547D53 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FF3A5011AD07DD800547D53 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -85,8 +85,8 @@
 		8FF3A4521AD068DD00547D53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8FF3A4511AD068DD00547D53 /* TES 2.app */,
-				8FF3A4661AD068DD00547D53 /* TES 2Tests.xctest */,
+				8FF3A4511AD068DD00547D53 /* EPICBaseProject.app */,
+				8FF3A4661AD068DD00547D53 /* EPICBaseProjectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -326,9 +326,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8FF3A4501AD068DD00547D53 /* TES 2 */ = {
+		8FF3A4501AD068DD00547D53 /* EPICBaseProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8FF3A4701AD068DD00547D53 /* Build configuration list for PBXNativeTarget "TES 2" */;
+			buildConfigurationList = 8FF3A4701AD068DD00547D53 /* Build configuration list for PBXNativeTarget "EPICBaseProject" */;
 			buildPhases = (
 				8FF3A44D1AD068DD00547D53 /* Sources */,
 				8FF3A44E1AD068DD00547D53 /* Frameworks */,
@@ -338,14 +338,14 @@
 			);
 			dependencies = (
 			);
-			name = TES 2;
+			name = EPICBaseProject;
 			productName = BaseProject;
-			productReference = 8FF3A4511AD068DD00547D53 /* TES 2.app */;
+			productReference = 8FF3A4511AD068DD00547D53 /* EPICBaseProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8FF3A4651AD068DD00547D53 /* TES 2Tests */ = {
+		8FF3A4651AD068DD00547D53 /* EPICBaseProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8FF3A4731AD068DD00547D53 /* Build configuration list for PBXNativeTarget "TES 2Tests" */;
+			buildConfigurationList = 8FF3A4731AD068DD00547D53 /* Build configuration list for PBXNativeTarget "EPICBaseProjectTests" */;
 			buildPhases = (
 				8FF3A4621AD068DD00547D53 /* Sources */,
 				8FF3A4631AD068DD00547D53 /* Frameworks */,
@@ -356,9 +356,9 @@
 			dependencies = (
 				8FF3A4681AD068DD00547D53 /* PBXTargetDependency */,
 			);
-			name = TES 2Tests;
+			name = EPICBaseProjectTests;
 			productName = BaseProjectTests;
-			productReference = 8FF3A4661AD068DD00547D53 /* TES 2Tests.xctest */;
+			productReference = 8FF3A4661AD068DD00547D53 /* EPICBaseProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -379,7 +379,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8FF3A44C1AD068DD00547D53 /* Build configuration list for PBXProject "TES 2" */;
+			buildConfigurationList = 8FF3A44C1AD068DD00547D53 /* Build configuration list for PBXProject "EPICBaseProject" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -392,8 +392,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8FF3A4501AD068DD00547D53 /* TES 2 */,
-				8FF3A4651AD068DD00547D53 /* TES 2Tests */,
+				8FF3A4501AD068DD00547D53 /* EPICBaseProject */,
+				8FF3A4651AD068DD00547D53 /* EPICBaseProjectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -442,7 +442,7 @@
 /* Begin PBXTargetDependency section */
 		8FF3A4681AD068DD00547D53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8FF3A4501AD068DD00547D53 /* TES 2 */;
+			target = 8FF3A4501AD068DD00547D53 /* EPICBaseProject */;
 			targetProxy = 8FF3A4671AD068DD00547D53 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -489,7 +489,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = Project/Resources/Plists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = TES 2;
+				PRODUCT_NAME = EPICBaseProject;
 			};
 			name = AdHoc;
 		};
@@ -502,7 +502,7 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = TES 2Tests;
+				PRODUCT_NAME = EPICBaseProjectTests;
 			};
 			name = AdHoc;
 		};
@@ -589,7 +589,7 @@
 				INFOPLIST_FILE = Project/Resources/Plists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
-				PRODUCT_NAME = TES 2;
+				PRODUCT_NAME = EPICBaseProject;
 			};
 			name = Debug;
 		};
@@ -600,7 +600,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				INFOPLIST_FILE = Project/Resources/Plists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = TES 2;
+				PRODUCT_NAME = EPICBaseProject;
 			};
 			name = Release;
 		};
@@ -618,7 +618,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
-				PRODUCT_NAME = TES 2Tests;
+				PRODUCT_NAME = EPICBaseProjectTests;
 			};
 			name = Debug;
 		};
@@ -631,14 +631,14 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = TES 2Tests;
+				PRODUCT_NAME = EPICBaseProjectTests;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8FF3A44C1AD068DD00547D53 /* Build configuration list for PBXProject "TES 2" */ = {
+		8FF3A44C1AD068DD00547D53 /* Build configuration list for PBXProject "EPICBaseProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8FF3A46E1AD068DD00547D53 /* Debug */,
@@ -648,7 +648,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8FF3A4701AD068DD00547D53 /* Build configuration list for PBXNativeTarget "TES 2" */ = {
+		8FF3A4701AD068DD00547D53 /* Build configuration list for PBXNativeTarget "EPICBaseProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8FF3A4711AD068DD00547D53 /* Debug */,
@@ -658,7 +658,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8FF3A4731AD068DD00547D53 /* Build configuration list for PBXNativeTarget "TES 2Tests" */ = {
+		8FF3A4731AD068DD00547D53 /* Build configuration list for PBXNativeTarget "EPICBaseProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8FF3A4741AD068DD00547D53 /* Debug */,
