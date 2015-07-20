@@ -1,4 +1,4 @@
-Sample code project: TES 2
+Sample code project: EPICBaseProject
 Version: 1.0
 
 IMPORTANT:
