@@ -9,7 +9,7 @@ A script for creating duplicates of the base project is also provided in this re
 Now you can create new projects on the fly in less time than it took to read this line. Awesome.
 
 This project serves as an extension to the tutorial of the blog article: ["Ready... Set... Xcode!"](http://epic-apps.uk/2015/04/19/ready-set-xcode/).
-Usage is free for all based on the attached license details, if you find this code useful, please consider [making a donation](http://epic-apps.uk/donations/). :)
+Usage is free for all based on the attached license details, if you find this code useful, please consider [letting me know](helloworld@epic-apps.uk)! :)
 
 Copyright (c) EPIC 
 [www.epic-apps.uk](www.epic-apps.uk)
